@@ -4,7 +4,7 @@ Welcome to the repository dedicated to automating the deployment of the Flight w
 
 ## Overview
 
-Automate deployment of the Highway website with an Nginx server using Docker images and containers.
+Automate deployment of the Flight website with an Nginx server using Docker images and containers.
 This repository includes scripts to push Docker images to your DockerHub repository and clean up deployment on local machine(optional).
 
 ******************
@@ -53,7 +53,7 @@ The provided Vagrant file simplifies VM management.
    ```bash
    bash get_html.sh
    ```
-7. **Automate deployment of highway website run with docker containers**:
+7. **Automate deployment of flight website run with docker containers**:
    ```bash
    bash nginx_flight_deploy.sh
    ```
