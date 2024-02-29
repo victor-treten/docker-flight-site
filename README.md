@@ -1,6 +1,6 @@
 # Deploying the Flight Website with Docker and Nginx
 
-Welcome to the repository dedicated to automating the deployment of the Flight website using Nginx and Docker!
+Deployment automated with bash scripts.
 
 ## Overview
 
