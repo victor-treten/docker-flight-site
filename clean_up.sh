@@ -20,7 +20,7 @@ echo -e "\n"
 
 echo "******************************************"
 echo "Deleting flight-image tagged to your docker hub local repository:"
-docker rmi victortreten/repo_test:flight
+docker rmi odennav/nginx:flight
 sleep 5
 echo -e "\n"
 

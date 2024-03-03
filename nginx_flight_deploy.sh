@@ -15,7 +15,7 @@ echo -e "\n"
 
 echo "**********************************************************"
 echo "Building docker image"
-docker build -t flight-image:earth . 
+docker build -t flight-image:flight . 
 echo -e "\n"
 
 echo "**********************************************************"
@@ -26,7 +26,7 @@ echo -e "\n"
 
 echo "**********************************************************"
 echo "Running nginx container from  flight-image"
-docker run --name flight-nginx -d -p 700:80 flight-image:earth
+docker run --name flight-nginx -d -p 700:80 flight-image:flight
 sleep 5
 echo -e "\n"
 
@@ -49,13 +49,13 @@ echo -e "\n"
 
 echo "**********************************************************"
 echo "Tag image to repository"
-docker tag flight-image:flight victortreten/repo_test:flight
+docker tag flight-image:flight odennav/nginx:flight
 sleep 5
 echo -e "\n"
 
 echo "**********************************************************"
 echo "Push image to Dockerhub"
-docker push victortreten/repo_test:flight
+docker push odennav/nginx:flight
 sleep 5
 echo -e "\n"
 
