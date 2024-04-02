@@ -1,6 +1,6 @@
-# Deploying the Flight Website with Docker and Nginx
+# Deploying the Flight Website with Docker
 
-Deployment automated with bash scripts.
+Deployment automated with bash scripts in test environment.
 
 ## Overview
 
@@ -56,7 +56,7 @@ The provided Vagrant file simplifies VM management.
 
    ```bash
    sudo apt-get install git
-   git clone https://github.com/odennav/nginx-flight.git
+   git clone https://github.com/odennav/docker-flight-site.git
    cd nginx-flight
    ```
 
