@@ -57,7 +57,7 @@ The provided Vagrant file simplifies VM management.
    ```bash
    sudo apt-get install git
    git clone https://github.com/odennav/docker-flight-site.git
-   cd nginx-flight
+   cd docker-flight-site
    ```
 
 6. **Practice with the Scripts:**
